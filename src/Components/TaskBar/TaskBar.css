@@ -1,0 +1,93 @@
+.TaskBar{
+    position:static;
+    height: 10vh;
+    width: 100vw;
+    bottom:628px;
+    left: 65px;
+    background-color: rgb(254, 254, 254);
+}
+.TitleText{
+    position: relative;
+    top:-24px;
+    left:88px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(13, 48, 113);
+    font-size: 18px;
+    font-weight: 630;
+}
+.TitleIcons{
+    position: relative;
+    left: 1280px;
+    top:-50px;
+}
+.ri-question-line{
+    position: relative;
+    right:66px;
+    top:-5px;
+}
+.ri-gift-line{
+    position: relative;
+    right:120px;
+    top:-5px;
+}
+.ri-search-line{
+    position: relative;
+    right:520px;
+    top:-5px;
+}
+.ri-account-circle-fill:hover{
+    color: blueviolet;
+    transition-duration:500ms ;
+}
+.ri-account-circle-fill:active{
+    color:rgb(60, 184, 184);
+}
+.ri-gift-line:hover{
+    color: blueviolet;
+    transition: 500ms;
+}
+.ri-gift-line:active{
+    color:rgb(60,184,184);
+}
+.ri-question-line:hover{
+    color: blueviolet;
+    transition: rgb(60,184,184);
+}
+.ri-question-line:active{
+    color: rgb(60, 184, 184);
+}
+.add-new{
+    position: relative;
+    right: 16%;
+    top:-33px;
+    background-color: rgb(13,48,113);
+    color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 110px;
+    border-radius: 2px;
+    font-weight: bold;
+    border: none;
+}
+.add-new:hover{
+    background-color: blueviolet;
+    transition: 500ms;
+    border-radius: 5px;
+    color: white;
+}
+.add-new:active{
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(60, 184, 184);
+    transition-duration:200ms ;
+}
+
+.logo-img{
+  height: 60px;
+  width: 60px;
+  position: relative;
+  left: 90px;
+
+}

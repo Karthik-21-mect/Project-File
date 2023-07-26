@@ -1,0 +1,75 @@
+.SecondBar
+    {
+        position: relative;
+        height: 8vh;
+        width: 100vw;
+        top: 10px;
+        left: 65px;
+        background-color: rgb(255, 255, 255);
+    }
+    .ri-briefcase-fill{
+        position: relative;
+        top: 12px;
+        left: 24px;
+    }
+    .tex{
+        position: relative;
+    top:12px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(13, 48, 113);
+    font-size: 14px;
+    font-weight: 630;
+    }
+#search1bar{
+    position: relative;
+    left: 800px;
+    top: -85px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: none;
+}
+.ViewJob{
+    position: relative;
+    top: 15px;
+    left: 44px;
+    font-size: 12px;
+    background-color:none;
+    border: 1px solid black;
+}
+.Published{
+    position: relative;
+    left: 810px;
+    top: 10px;
+    padding-left:15px ;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: rgb(13, 48, 113);
+}
+.Published:hover{
+    background-color: blueviolet;
+    transition: 500ms;
+    border-radius: 5px;
+    color: white;
+}
+.Published:active{
+    background-color: rgb(60, 184, 184);
+    transition-duration:200ms ;
+}
+.drop{
+    position: relative;
+    top:10px;
+    left: 560px;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
